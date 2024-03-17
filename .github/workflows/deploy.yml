@@ -57,7 +57,7 @@ jobs:
 
       - run: docker-compose exec -T web cat package.json
 
-      - run: docker-compose exec -T web npm run production
+      - run: docker-compose exec -T web npm run prod
 
       - uses: aws-actions/amazon-ecr-login@v1
         id: amazon-ecr-login
