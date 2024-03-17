@@ -1,0 +1,18 @@
+* text=auto
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
+
+/node_modules
+/public/css
+/public/hot
+/public/js
+/public/mix-manifest.json
+/public/storage

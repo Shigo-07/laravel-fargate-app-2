@@ -33,6 +33,7 @@ services:
         published: ${WEB_PORT:-80}
         protocol: tcp
         mode: host
+      - "5173:5173"
     volumes:
       - type: volume
         source: php-fpm-socket
